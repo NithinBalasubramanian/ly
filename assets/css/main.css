@@ -355,7 +355,7 @@ a {
 	align-items: center;
 	justify-content: space-evenly;
 	overflow: auto;
-	padding: 40px 0;
+	padding: 20px 0;
 }
 
 .popup-title {
@@ -576,15 +576,15 @@ a {
 	margin-top: 10px;
 	background-color: #fff;
 	border-radius: 4px;
-	width:70%;
+	width:75%;
 }
 
 .user_dash{
 	padding: 20px 0 5px;
-	margin: 10px 0px 0px 10px;
+	margin: 10px 10px 0px 0px;
 	background-color: #fff;
 	border-radius: 4px;
-	width:30%;
+	width:25%;
 }
 
 .user_dash .profile{
@@ -595,11 +595,11 @@ a {
 
 .user_dash .profile .profile_pic{
 	width:20%;
-	height:60px;
+	height:50px;
 }
 
 .user_dash .profile .profile_pic img{
-	float:right;
+	margin:0px 10px;
 }
 
 .user_dash .cont{
@@ -609,19 +609,26 @@ a {
 
 .user_dash .cont p{
 	padding:0px 20px;
-	font-weight:600;
+	font-weight:400;
+}
+
+.user_dash .cont a{
+	text-decoration:none;
+	color:#ffba33;
+	padding:0px 20px;
+	font-weight:500;
 }
 
 .user_dash .cont img{
 	display: block;
 	width: 60%;
-	height:90%;
+	height:80%;
 	margin: auto;
 }
 
 .user_dash .profile .profile_name{
 	width:80%;
-	height:60px;
+	height:50px;
 }
 
 .user_dash .profile .profile_name h4{
@@ -1249,16 +1256,20 @@ footer a:hover {
 }
 
 .product_view_part .product_image .product_sub .sub_list{
-	width:90%;
+	width:80%;
 	height:100px;
 	margin:10px auto;
 	border:1px solid #eee;
 }
 
+.product_view_part .product_image .product_sub .active_list{
+	border:1px solid #ffba33;
+}
+
 .product_view_part .product_image .product_main .main_img{
-	width:90%;
+	width:94%;
 	height:500px;
-	margin:10px auto;
+	margin:10px 0px;
 	border:1px solid #eee;
 }
 
@@ -1302,11 +1313,11 @@ footer a:hover {
 }
 
 .product_datas .store_list .store_datas .distance p{
-	margin:10px 0px;
+	margin:5px 0px;
 }
 
 .product_datas .store_list .store_datas .store_data_disp{
-	width:60%;
+	width:50%;
 }
 
 .store_data_disp p{
@@ -1321,7 +1332,7 @@ footer a:hover {
 
 
 .product_datas .store_list .store_datas .store_action{
-	width:20%;
+	width:30%;
 }
 
 .product_datas .store_list h4{
@@ -1337,8 +1348,9 @@ footer a:hover {
 	text-align:center;
 }
 
-.product_datas .store_list .icon i{
-	font-size:35px;
+.product_datas .store_list .icon .icon_img{
+	width:40%;
+	margin:0px auto;
 } 
 
 .product_datas .store_list .store_data_disp h4{
@@ -1352,20 +1364,25 @@ footer a:hover {
 }
 
 .product_datas .store_list .store_action{
-	text-align:center;
+	text-align:left;
 }
 
 .product_datas .store_list .store_action button{
-	margin:10px auto;
+	margin:10px 0px;
 	border:1px solid #ffba33;
 	background-color:#ffba33;
-	padding:5px 10px;
+	padding:7px 10px;
+	border-radius:2px;
+	box-shadow:0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important ;
+	font-weight:600;
+	color:#fff;
 }
 
 .product_datas .store_list .store_action .stock{
-	margin:10px auto;
+	margin:10px 0px 0px 0px;
 	font-weight:700;
-	padding:4px 10px;
+	padding:4px 0px;
+	text-align:left;
 }
 
 .product_datas .store_list .store_action .stock_in{
@@ -1392,7 +1409,7 @@ footer a:hover {
 
 .product_details .heading{
 	width:100%;
-	height:50px;
+	height:40px;
 	vertical-align: middle;
 	border:1px solid #eee;
 }
@@ -1416,7 +1433,7 @@ footer a:hover {
 }
 
 .product_details .detail_active{
-	background-color:lightgray;
+	background-color:#eee;
 }
 
 .recent_view{
@@ -1651,12 +1668,12 @@ footer a:hover {
 
 .location_icon .list_icons{
 	width:25%;
-	margin:2px;
+	margin:10px 2px;
 	height:160px;
 }
 
 .location_icon .active_loc{
-	border-bottom:5px solid green;
+	border:3px solid #ffba33;
 }
 
 .cart_part{

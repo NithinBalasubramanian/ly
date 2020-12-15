@@ -100,6 +100,21 @@
 		</section>
 
 		<section class="container category_part">
+			<div class="user_dash">
+				<div class="profile">
+					<div class="profile_pic">
+						<img src="./assets/images/profile.png" alt="profile pic" width="50px" height="90%">
+					</div>
+					<div class="profile_name">
+						<h4>Hi Kiran</h4>
+					</div>
+				</div>
+				<div class="cont">
+					<p>Your Recent order</p>
+					<img src="./assets/images/categories/cat-12.jpg" alt="Last Product image">
+					<a href="">See your orders</a>
+				</div>
+			</div>
 			<div class="categories-section">
 				<h3 class="section-title">Shop by category</h3>
 				<div class="categories swiper-container" id="category-swiper">
@@ -167,20 +182,6 @@
 							<!-- p.category -->
 						</a>
 					</div>
-				</div>
-			</div>
-			<div class="user_dash">
-				<div class="profile">
-					<div class="profile_pic">
-						<img src="./assets/images/profile.png" alt="profile pic" width="80%" height="90%">
-					</div>
-					<div class="profile_name">
-						<h4>Hi Kiran</h4>
-					</div>
-				</div>
-				<div class="cont">
-					<p>Your Recent order</p>
-					<img src="./assets/images/categories/cat-12.jpg" alt="Last Product image">
 				</div>
 			</div>
 		</section>
@@ -740,6 +741,10 @@
 	<script src="./assets/js/main.js?v=1.15"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script>
+		$(document).on('mouseover','.list_icons',function(){
+			$('.active_loc').removeClass('active_loc');
+			$(this).addClass('active_loc');
+		});
 		$(document).on('click','.list_icons',function(){
 			$('.active_loc').removeClass('active_loc');
 			$(this).addClass('active_loc');
