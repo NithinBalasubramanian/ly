@@ -1235,6 +1235,22 @@ footer a:hover {
 
 .product_view_part .path_disp{
 	padding:5px 20px;
+	display:flex;
+}
+
+.product_view_part .path_disp a{
+	text-decoration:none;
+	color:#ffba33;
+	cursor:pointer;
+	padding:0px 5px;
+}
+
+.product_view_part .path_disp a:hover{
+	text-decoration:none;
+	color:#ffba33;
+	cursor:pointer;
+	padding:0px 5px;
+	font-weight:700;
 }
 
 .product_view_part .product_image{
@@ -1455,6 +1471,15 @@ footer a:hover {
 	height:480px;
 	margin:10px;
 	border:1px solid #eee;
+	text-decoration:none;
+	color:#494544;
+	cursor:pointer;
+}
+
+.cart_list:hover{
+	text-decoration:none;
+	color:#494544;
+	cursor:pointer;
 }
 
 .card_list .card_img{
