@@ -1116,18 +1116,20 @@
 			$('.size_drop').removeClass('drop_on');
 		});
 		$(document).on('click','.show',function(){
-			$('.disp_off').addClass('disp_on');
-			$(this).css('display','none');
+			$('.disp_off').fadeIn(800);
+			$('.show').css('display','none');
+			$('.hide').fadeIn();
 		});
 		$(document).on('click','.hide',function(){
-			$('.disp_off').removeClass('disp_on');
-			$('.show').css('display','block');
+			$('.disp_off').fadeOut();
+			$('.show').fadeIn(1000);
+			$('.hide').css('display','none');
 		});
 		$(document).on('click','.detail_heading',function(){
 			$('.detail_disp_on').addClass('detail_disp_off');
 			$('.detail_active').removeClass('detail_active');
-			$(this).next().removeClass('detail_disp_off');
-			$(this).next().addClass('detail_disp_on');
+			$('.detail_disp_off').css('display','none');
+			$(this).next().fadeIn(800);
 			$(this).addClass('detail_active');
 		});
 	</script>
