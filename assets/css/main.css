@@ -1285,13 +1285,17 @@ footer a:hover {
 .product_view_part{
 	margin-bottom: 30px;
 	background-color: #fff;
-	padding-top: 30px;
+	padding-top: 10px;
 	padding-bottom: 15px;
 	border-radius: 4px;
 }
 
 .pb{
 	padding-bottom:20px;
+}
+
+.pb_10{
+	padding-bottom:10px;
 }
 
 .icon_more{
@@ -1335,7 +1339,7 @@ footer a:hover {
 
 
 .product_view_part .path_disp{
-	padding:5px 20px;
+	padding:0px 12px;
 	display:flex;
 }
 
@@ -1343,14 +1347,15 @@ footer a:hover {
 	text-decoration:none;
 	color:#7B7B7B;
 	cursor:pointer;
-	padding:0px 5px;
+	padding:0px 2px;
+	font-size:12px;
 }
 
 .product_view_part .path_disp a:hover{
 	text-decoration:none;
 	color:#ffba33;
 	cursor:pointer;
-	padding:0px 5px;
+	padding:0px 2px;
 }
 
 
@@ -1391,7 +1396,8 @@ footer a:hover {
 }
 
 .product_datas h2{
-	font-weight:600;
+	font-weight:200;
+	color:#000000;
 	padding:10px 0px 0px 10px;
 }
 
@@ -1496,6 +1502,7 @@ footer a:hover {
 
 .product_datas .store_list .store_datas .store_action{
 	width:30%;
+	line-height:16px;
 }
 
 .product_datas .store_list h4{
@@ -1575,11 +1582,11 @@ footer a:hover {
 }
 
 .store_data_disp i{
-	padding:0px 1px 0px 4px;
+	/* padding:0px 1px 0px 4px; */
 }
 
 .product_datas .store_list .store_action button{
-	margin:5px 20px 10px 0px;
+	margin:8px 20px 10px 0px;
 	border:1px solid #ffba33;
 	background-color:#ffba33;
 	padding:5px 10px;
@@ -1600,7 +1607,7 @@ footer a:hover {
 .product_datas .store_list .store_action .stock{
 	margin:10px 0px 0px 0px;
 	font-weight:500;
-	padding:4px 20px;
+	padding:4px 20px 0px 0px;
 	text-align:right;
 	letter-spacing: 1px;
 }
