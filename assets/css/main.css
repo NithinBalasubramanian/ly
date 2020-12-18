@@ -14,6 +14,10 @@
 	box-sizing: border-box;
 }
 
+html{
+	scroll-behavior:smooth;
+}
+
 body {
 	/* font-family: 'Montserrat', sans-serif; */
 	/* font-family: 'Roboto Condensed', sans-serif; */
@@ -1378,11 +1382,50 @@ footer a:hover {
 }
 
 .disp_off{
+	animation:slide_off 0.5s linear forwards;
 	display:none;
 }
 
 .disp_on{
-	
+	display:block;
+	transition: transform 2s;
+	animation:slide 0.3s linear forwards;
+}
+
+.detail_disp_on{
+	display:block;
+	transition: transform 2s;
+	animation:slide 0.3s linear forwards;
+}
+
+.detail_disp_off{
+	display:none;
+}
+
+.hide{
+	display:none;
+}
+
+@keyframes slide{
+	0% {
+		transform: scaleY(0.5);
+		transform-origin: top;
+	}
+	100% {
+		transform: scaleY(1);
+		transform-origin: top;
+	}
+}
+
+@keyframes slide_off{
+	0% {
+		transform: scaleY(1);
+		transform-origin: top;
+	}
+	100% {
+		transform: scaleY(0);
+		transform-origin: top;
+	}
 }
 
 .product_view_part .product_image .product_sub .sub_list{
@@ -1398,7 +1441,7 @@ footer a:hover {
 
 .product_view_part .product_image .product_main .main_img{
 	width:95%;
-	height:600px;
+	height:500px;
 	margin:10px auto;
 	border:1px solid #eee;
 }
@@ -1586,7 +1629,7 @@ footer a:hover {
 
 .product_datas .store_list .store_action small{
 	float:right;
-	padding-right:20px;
+	padding-right:10px;
 }
 
 .store_data_disp i{
@@ -1594,7 +1637,7 @@ footer a:hover {
 }
 
 .product_datas .store_list .store_action button{
-	margin:8px 20px 10px 0px;
+	margin:8px 10px 10px 0px;
 	border:1px solid #ffba33;
 	background-color:#ffba33;
 	padding:5px 10px;
@@ -1615,7 +1658,7 @@ footer a:hover {
 .product_datas .store_list .store_action .stock{
 	margin:10px 0px 0px 0px;
 	font-weight:500;
-	padding:4px 20px 0px 0px;
+	padding:4px 10px 0px 0px;
 	text-align:right;
 	letter-spacing: 1px;
 }
@@ -2068,14 +2111,6 @@ footer a:hover {
 	border:1px solid #eee;
 	width:95%;
 	cursor:pointer;
-}
-
-.detail_disp_on{
-	display:block;
-}
-
-.detail_disp_off{
-	display:none;
 }
 
 .ratings{
