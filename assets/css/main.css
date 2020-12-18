@@ -1444,7 +1444,7 @@ footer a:hover {
 .product_view_part .product_image .product_main .main_img{
 	width:95%;
 	height:500px;
-	margin:10px auto;
+	margin:10px 0px 10px 10px;
 	border:1px solid #eee;
 }
 
