@@ -1456,7 +1456,7 @@ footer a:hover {
 }
 
 .product_datas .store_list .store_datas .distance p{
-	margin:10px 0px;
+	margin:5px 0px;
 	font-weight:600;
 }
 
@@ -1487,17 +1487,23 @@ footer a:hover {
 }
 
 .product_datas .store_list .icon{
-	width:70%;
-	height:78%;
-	margin:10px auto;
+	width:80%;
+	height:60%;
+	margin:15% auto 10px 0px;
 	text-align:center;
 	border-right:2px solid #EEE;
 }
 
+.product_datas .store_list .icon .icon_cont{
+	width:80%;
+	margin:0px auto;
+}
+
 .product_datas .store_list .icon .icon_img{
-	width:50%;
+	width:40px;
 	margin:0px auto;
 	height:40px;
+	vertical-align: middle;
 } 
 
 .product_datas .store_list .store_data_disp h4{
@@ -1527,12 +1533,12 @@ footer a:hover {
 }
 
 .price_first{
-	padding:0px 15px 0px 0px;
+	padding:0px 0px 0px 0px;
 	font-size:18px;
 }
 
 .price{
-	padding:0px 15px 0px 15px;
+	padding:0px 5px 0px 10px;
 }
 
 .price p{
