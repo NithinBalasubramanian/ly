@@ -1377,6 +1377,14 @@ footer a:hover {
 	height:auto;
 }
 
+.disp_off{
+	display:none;
+}
+
+.disp_on{
+	display:block;
+}
+
 .product_view_part .product_image .product_sub .sub_list{
 	width:90%;
 	height:60px;
@@ -2059,6 +2067,7 @@ footer a:hover {
 	color:#7B7B7B;
 	border:1px solid #eee;
 	width:95%;
+	cursor:pointer;
 }
 
 .ratings{
