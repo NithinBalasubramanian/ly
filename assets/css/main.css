@@ -1472,7 +1472,7 @@ footer a:hover {
 }
 
 .product_datas .store_list .store_datas .distance{
-	width:25%;
+	width:20%;
 }
 
 .product_datas .store_list .store_datas .distance p{
@@ -1558,7 +1558,8 @@ footer a:hover {
 }
 
 .price{
-	padding:0px 5px 0px 10px;
+	padding:5px 5px 0px 10px;
+	line-height:18px;
 }
 
 .price p{
@@ -1568,8 +1569,17 @@ footer a:hover {
 	font-weight:700;
 }
 
+.product_datas .store_list .store_action small{
+	float:right;
+	padding-right:20px;
+}
+
+.store_data_disp i{
+	padding:0px 1px 0px 4px;
+}
+
 .product_datas .store_list .store_action button{
-	margin:5px 20px 0px 0px;
+	margin:5px 20px 10px 0px;
 	border:1px solid #ffba33;
 	background-color:#ffba33;
 	padding:5px 10px;
