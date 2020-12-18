@@ -1437,6 +1437,26 @@ footer a:hover {
 	border:none;
 	background-color:#EEE;
 	color:#7B7B7B;
+	position:relative;
+}
+
+.size_drop{
+	width:200px;
+	height:auto;
+	background-color:#fff;
+	position:absolute;
+	box-shadow:0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important ;
+	display:none;
+}
+
+.size_drop .size_drop_data{
+	width:100%;
+	padding:10px 10px 10px 20px;
+	border-bottom:1px solid #eee;
+}
+
+.drop_on{
+	display:block;
 }
 
 .product_datas .store_list{

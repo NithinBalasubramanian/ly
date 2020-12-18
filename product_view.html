@@ -169,9 +169,17 @@
 					</div>
                     <div class="product_size">
 						<h4>Variant </h4>
-                        <button>
+                        <button class="drop_action">
 							Select Size <i class="fas fa-caret-down icon_more" aria-hidden="true" ></i>
 						</button>
+						<div class="size_drop ">
+							<div class="size_drop_data">
+								size 1
+							</div>
+							<div class="size_drop_data">
+								size 2
+							</div>
+						</div>
                     </div>
                     <div class="store_list">
                         <h4>Buy from store</h4>
@@ -1045,6 +1053,9 @@
 		$(document).on('click','.list_icons',function(){
 			$('.active_loc').removeClass('active_loc');
 			$(this).addClass('active_loc');
+		});
+		$(document).on('click','.drop_action',function(){
+			$('.size_drop').toggleClass('drop_on');
 		});
 	</script>
 </body>
