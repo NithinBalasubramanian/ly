@@ -1054,8 +1054,12 @@
 			$('.active_loc').removeClass('active_loc');
 			$(this).addClass('active_loc');
 		});
-		$(document).on('click','.drop_action',function(){
+		$(document).on('click','.drop_action',function(event){
+			event.stopPropagation();
 			$('.size_drop').toggleClass('drop_on');
+		});
+		$(window).click(function() {
+			$('.size_drop').removeClass('drop_on');
 		});
 	</script>
 </body>
