@@ -349,10 +349,10 @@
                     <div class="product_details">
                         <h4>Product Details</h4>
                         <div class="details">
-                            <div class="heading detail_active">
+                            <div class="heading detail_heading detail_active">
                                 <p>Description</p>
                             </div>
-                            <div class="detail_disp">
+                            <div class="detail_disp detail_disp_on">
                                 <p>The power of A14 Bionic brings the latest AR experiences to life. Explore ancient relics, 
                                     dissect a frog — even try out a new couch with AR Quick Look.,Sound moves around you in 
                                     3D space, so you feel like you’re inside the action.,Both the Wide and Ultra Wide cameras 
@@ -360,11 +360,26 @@
                                     The new Wide camera brings in 27 percent more light. So whether you take photos by day or 
                                     by moonlight, you’ll get a level of detail and color that wasn’t possible before.</p>
                             </div>
-                            <div class="heading">
+                            <div class="heading detail_heading">
                                 <p>Spec</p>
+							</div>
+							<div class="detail_disp detail_disp_off">
+                                <p>The power of A14 Bionic brings the latest AR experiences to life. Explore ancient relics, 
+                                    dissect a frog — even try out a new couch with AR Quick Look.,Sound moves around you in 
+                                    3D space, so you feel like you’re inside the action.,Both the Wide and Ultra Wide cameras 
+                                    now have Night mode — and it’s better than ever at capturing incredible low-light shots. 
+                                    The new Wide camera brings in 27 percent more light. So whether you take photos by day or 
+                                    by moonlight, you’ll get a level of detail and color that wasn’t possible before.</p>
                             </div>
-                            <div class="heading">
+                            <div class="heading detail_heading">
                                 <p>Information</p>
+                            </div><div class="detail_disp detail_disp_off">
+                                <p>The power of A14 Bionic brings the latest AR experiences to life. Explore ancient relics, 
+                                    dissect a frog — even try out a new couch with AR Quick Look.,Sound moves around you in 
+                                    3D space, so you feel like you’re inside the action.,Both the Wide and Ultra Wide cameras 
+                                    now have Night mode — and it’s better than ever at capturing incredible low-light shots. 
+                                    The new Wide camera brings in 27 percent more light. So whether you take photos by day or 
+                                    by moonlight, you’ll get a level of detail and color that wasn’t possible before.</p>
                             </div>
                         </div>
 					</div>
@@ -1107,6 +1122,13 @@
 		$(document).on('click','.hide',function(){
 			$('.disp_off').removeClass('disp_on');
 			$('.show').css('display','block');
+		});
+		$(document).on('click','.detail_heading',function(){
+			$('.detail_disp_on').addClass('detail_disp_off');
+			$('.detail_active').removeClass('detail_active');
+			$(this).next().removeClass('detail_disp_off');
+			$(this).next().addClass('detail_disp_on');
+			$(this).addClass('detail_active');
 		});
 	</script>
 </body>

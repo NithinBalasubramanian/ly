@@ -2070,6 +2070,14 @@ footer a:hover {
 	cursor:pointer;
 }
 
+.detail_disp_on{
+	display:block;
+}
+
+.detail_disp_off{
+	display:none;
+}
+
 .ratings{
 	padding:10px 0px 2px 10px;
 }
