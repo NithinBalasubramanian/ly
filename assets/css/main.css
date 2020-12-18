@@ -1383,7 +1383,7 @@ footer a:hover {
 
 .disp_off{
 	animation:slide_off 0.5s linear forwards;
-	display:none;
+	
 }
 
 .disp_on{
@@ -1421,10 +1421,12 @@ footer a:hover {
 	0% {
 		transform: scaleY(1);
 		transform-origin: top;
+		height:100px;
 	}
 	100% {
 		transform: scaleY(0);
 		transform-origin: top;
+		height:0px;
 	}
 }
 
