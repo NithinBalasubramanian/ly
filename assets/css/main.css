@@ -1451,7 +1451,7 @@ footer a:hover {
 .product_datas h2{
 	font-weight:200;
 	color:#000000;
-	padding:10px 0px 0px 10px;
+	padding:0px 0px 0px 10px;
 }
 
 .product_datas hr{
@@ -2169,7 +2169,7 @@ footer a:hover {
 .ratings .reviews_img .review_images{
 	width:60px;
 	height:60px;
-	margin:10px;
+	margin:10px 0px 10px 10px;
 	border:1px solid #eee;
 }
 
@@ -2566,7 +2566,7 @@ footer a:hover {
 	.product_view_part .product_image .product_main .main_img{
 		width:65%;
 		height:300px;
-		margin:10px auto;
+		margin:10px 0px 10px 10px;
 		border:1px solid #eee;
 	}
 
