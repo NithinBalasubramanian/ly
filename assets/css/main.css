@@ -1693,6 +1693,7 @@ footer a:hover {
 	height:auto;
 	vertical-align: middle;
 	border:1px solid #eee;
+	cursor:pointer;
 }
 
 .product_details .heading p{
