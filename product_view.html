@@ -13,6 +13,9 @@
 </head>
 
 <body>
+	<!-- <div class="loader_bg">
+		<div class="loader"></div>
+	</div> -->
 	<header class="top-header">
 		<div class="container">
 			<div class="row flex-end">
@@ -41,7 +44,7 @@
 
 	<header class="main-header">
 		<div class="container">
-			<div class="row align-center">
+			<div class="row align-center mobile_pad">
 				<div class="brand">
 					<img src="./assets/images/logo.jpg" alt="L&Y Stores" class="logo">
 				</div>
@@ -76,6 +79,13 @@
 						<i class="fa fa-bars" aria-hidden="true"></i>
 					</button>
 				</div>
+				<div class="mobile_brand">
+					<img src="./assets/images/logo.jpg" alt="L&Y Stores" class="logo">
+				</div>
+			</div>
+			<div class="mobile_location">
+				<span class="location-marker"><i class="fas fa-map-marker-alt"></i></span>
+				<span class="current-location">DS-MAX Sandalwood, Nagasandra</span>
 			</div>
 		</div>
 	</header>
@@ -91,31 +101,31 @@
 						<a> Sub category / </a>
 						<a href="product_view.html"> Product name</a> 
 					</div>
-                </div>
+				</div>
             </div>
             <div class="row pb">
-                <div class="cont">
+                <div class="cont1">
                     <div class="product_image">
-                       <div class="product_sub">
-                            <div class="sub_list active_list">
-                                <img src="./assets/images/categories/cat-2.jpg" width="100%" height="100%" alt="product image">
-                            </div>
-                            <div class="sub_list">
-                                <img src="./assets/images/categories/cat-4.jpg" width="100%" height="100%" alt="product image">
-                            </div>
-                            <div class="sub_list">
-                                <img src="./assets/images/categories/cat-10.webp" width="100%" height="100%" alt="product image">
-                            </div>
-                       </div> 
-                       <div class="product_main">
-                           <div class="main_img">
-                                <img src="./assets/images/categories/cat-3.webp" width="100%" height="100%" alt="product image">
-                           </div>
-                       </div>
+						<div class="product_sub">
+							<div class="sub_list active_list">
+								<img src="./assets/images/categories/cat-2.jpg" width="100%" height="100%" alt="product image">
+							</div>
+							<div class="sub_list">
+								<img src="./assets/images/categories/cat-4.jpg" width="100%" height="100%" alt="product image">
+							</div>
+							<div class="sub_list">
+								<img src="./assets/images/categories/cat-10.webp" width="100%" height="100%" alt="product image">
+							</div>
+						</div> 
+						<div class="product_main">
+							<div class="main_img">
+									<img src="./assets/images/categories/cat-3.webp" width="100%" height="100%" alt="product image">
+							</div>
+						</div>
                     </div>
                 </div>
-                <div class="cont product_datas">
-                    <h2>Product Name</h2>
+                <div class="cont2 product_datas">
+                    <h2>Bosch GSB 450 - Watt plastic impact drill</h2>
                     <div class="review_star">
                         <div class="review_icon">
                             <i class="fas fa-star"></i>
@@ -128,28 +138,41 @@
                         </div>
                         <div class="review_icon">
                             <i class="fas fa-star"></i>
-                        </div>
-                    </div>
+						</div>
+						<div class="review_icon">
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+					</div>
+					<hr />
                     <div class="product_size">
+						<h4>Variant </h4>
                         <select name="" id="">
                             <option value="">Select size</option>
                         </select>
                     </div>
                     <div class="store_list">
-                        <h4>Buy from stores</h4>
+                        <h4>Buy from store</h4>
                         <div class="store_datas">
                             <div class="distance">
                                 <div class="icon">
                                     <div class="icon_img">
-                                        <img src="./assets/images/loc_icon.png" width="100%" height="100%" alt=location"">
+                                        <img src="./assets/images/loc_icon.png" width="100%" height="100%" alt="location">
                                     </div>
-                                    <p>3 Km</p>
+									<p>3 Km</p>
                                 </div>
-                            </div>
+							</div>
                             <div class="store_data_disp">
-                                <h4>Store name 1</h4>
-                                <p>MRP <del>Rs 3,250 </del><span>Rs 2,500</span></p>
-                                <small>Delivery by saturday Nov 28</small>
+                                <h4>XYZ Store Pvt Ltd</h4>
+								<div class="price_align">
+									<div class="price_first">
+										<del>Rs 3,250 </del>
+									</div>
+									<div class="price">
+										<p>Rs 2,500.00  </p>
+										<small class="align_below">you Save upto Rs 1000 (15%)</small>
+									</div>
+								</div>
+                                <small>Delivery by saturday <b>Nov 28</b></small>
                             </div>
                             <div class="store_action">
                                 <div class="stock stock_in">In stock</div>
@@ -162,13 +185,21 @@
                                     <div class="icon_img">
                                         <img src="./assets/images/loc_icon.png" width="100%" height="100%" alt=location"">
                                     </div>
-                                    <p>3 Km</p>
+                                    <p>8 Km</p>
                                 </div>
                             </div>
                             <div class="store_data_disp">
-                                <h4>Store name 2</h4>
-                                <p>MRP <del>Rs 3,250 </del><span>Rs 2,500</span></p>
-                                <small>Delivery by saturday Nov 28</small>
+                                <h4>KMK Store Pvt Ltd</h4>
+                                <div class="price_align">
+									<div class="price_first">
+										<del>Rs 3,250 </del>
+									</div>
+									<div class="price">
+										<p>Rs 2,500.00  </p>
+										<small class="align_below">you Save upto Rs 1000 (15%)</small>
+									</div>
+								</div>
+                                <small>Delivery by saturday <b>Nov 28</b></small>
                             </div>
                             <div class="store_action">
                                 <div class="stock stock_in">In stock</div>
@@ -181,20 +212,29 @@
                                     <div class="icon_img">
                                         <img src="./assets/images/loc_icon.png" width="100%" height="100%" alt=location"">
                                     </div>
-                                    <p>3 Km</p>
+                                    <p>15 Km</p>
                                 </div>
                             </div>
                             <div class="store_data_disp">
-                                <h4>Store name 1</h4>
-                                <p>MRP <del>Rs 3,250 </del><span>Rs 2,500</span></p>
-                                <small>Delivery by saturday Nov 28</small>
+                                <h4>MNC Store Pvt Ltd</h4>
+                                <div class="price_align">
+									<div class="price_first">
+										<del>Rs 3,250 </del>
+									</div>
+									<div class="price">
+										<p>Rs 2,500.00  </p>
+										<small class="align_below">you Save upto Rs 1000 (15%)</small>
+									</div>
+								</div>
+                                <small>Delivery by saturday <b>Nov 28</b></small>
                             </div>
                             <div class="store_action">
                                 <div class="stock stock_out">Out of stock</div>
                                 <button>Add To Cart</button>
                             </div>
                         </div>
-                    </div>
+						<p class="more"><i class="fas fa-caret-down icon_more" aria-hidden="true" ></i>See one more</p>
+					</div>
                     <div class="store_list">
                         <h4>Buy from Wholeseller</h4>
                         <div class="store_datas">
@@ -203,20 +243,37 @@
                                     <div class="icon_img">
                                         <img src="./assets/images/loc_icon.png" width="100%" height="100%" alt=location"">
                                     </div>
-                                    <p>3 Km</p>
+                                    <p>8 Km</p>
                                 </div>
                             </div>
                             <div class="store_data_disp">
-                                <h4>Store name 1</h4>
-                                <p>MRP <del>Rs 3,250 </del><span>Rs 2,500</span></p>
-                                <small>Delivery by saturday Nov 28</small>
+                                <h4>XYZ Store Pvt Ltd</h4>
+                                <div class="price_align">
+									<div class="price_first">
+										<del>Rs 3,250 </del>
+									</div>
+									<div class="price">
+										<p>Rs 2,500.00 </p>
+										<small class="align_below">you Save upto Rs 1000 (15%)</small>
+									</div>
+								</div>
+                                <small>Delivery by saturday <b>Nov 28</b></small>
                             </div>
                             <div class="store_action">
                                 <div class="stock stock_in">In stock</div>
                                 <button>Add To Cart</button>
                             </div>
                         </div>
-                    </div>
+					</div>
+					<div class="emi_option">
+						<h4>EMI Option</h4>
+						<div class="emi_detail">
+							<p>The power of A14 Bionic brings the latest AR experiences to life. Explore ancient relics, 
+								dissect a frog — even try out a new couch with AR Quick Look.,Sound moves around you in 
+								3D space, so you feel like you’re inside the action.,Both the Wide and Ultra Wide cameras
+								 now have Night mode — and it’s better than ever at capturing incredible low-light shots. </p>
+						</div>
+					</div>
                     <div class="product_details">
                         <h4>Product details</h4>
                         <div class="details">
@@ -238,7 +295,55 @@
                                 <p>Information</p>
                             </div>
                         </div>
-                    </div>
+					</div>
+					<div class="ratings">
+						<div class="row">
+							<h4>Ratings </h4>
+							<span>
+								<div class="review_star">
+									<div class="review_icon">
+										<i class="fas fa-star"></i>
+									</div>
+									<div class="review_icon">
+										<i class="fas fa-star"></i>
+									</div>
+									<div class="review_icon">
+										<i class="fas fa-star"></i>
+									</div>
+									<div class="review_icon">
+										<i class="fas fa-star"></i>
+									</div>
+									<div class="review_icon">
+										<i class="fas fa-star-half-alt"></i>
+									</div>
+								</div>
+							</span>
+						</div>
+						<div class="details">
+                            <div class="heading ">
+								<div class="review_star_heading">
+									<div class="star_count">4.5 <i class="fas fa-star"></i></div>
+									<p>Very nice product value for money</p>
+								</div>
+                            </div>
+                            <div class="detail_disp">
+                                <p>The power of A14 Bionic brings the latest AR experiences to life. Explore ancient relics, 
+									dissect a frog — even try out a new couch with AR Quick Look.
+								</p>
+								<div class="reviews_img">
+									<div class="review_images">
+										<img src="./assets/images/categories/cat-2.jpg" width="100%" height="100%" alt="product image">
+									</div>
+									<div class="review_images">
+										<img src="./assets/images/categories/cat-4.jpg" width="100%" height="100%" alt="product image">
+									</div>
+									<div class="review_images">
+										<img src="./assets/images/categories/cat-10.webp" width="100%" height="100%" alt="product image">
+									</div>
+								</div>	
+                            </div>
+                        </div>
+					</div>
                 </div>
             </div>
         </div>
@@ -399,7 +504,7 @@
 									</div>
 								</div>
 								<div class="product-details">
-									<a class="product-link" href="#">
+									<a class="product-link" href="product_view.html">
 										<h4 class="product-title">Cut-off Saw</h4>
 									</a>
 									<p class="product-size">Size <span></span></p>
@@ -431,7 +536,7 @@
 									</div>
 								</div>
 								<div class="product-details">
-									<a class="product-link" href="#">
+									<a class="product-link" href="product_view.html">
 										<h4 class="product-title">Grinder</h4>
 									</a>
 									<p class="product-size">Size <span></span></p>
@@ -463,7 +568,7 @@
 									</div>
 								</div>
 								<div class="product-details">
-									<a class="product-link" href="#">
+									<a class="product-link" href="product_view.html">
 										<h4 class="product-title">Cordless Drill</h4>
 									</a>
 									<p class="product-size">Size <span></span></p>
@@ -495,7 +600,7 @@
 									</div>
 								</div>
 								<div class="product-details">
-									<a class="product-link" href="#">
+									<a class="product-link" href="product_view.html">
 										<h4 class="product-title">Hammer Drill</h4>
 									</a>
 									<p class="product-size">Size <span></span></p>
@@ -527,7 +632,7 @@
 									</div>
 								</div>
 								<div class="product-details">
-									<a class="product-link" href="#">
+									<a class="product-link" href="product_view.html">
 										<h4 class="product-title">Tile Saw</h4>
 									</a>
 									<p class="product-size">Size <span></span></p>
@@ -559,7 +664,7 @@
 									</div>
 								</div>
 								<div class="product-details">
-									<a class="product-link" href="#">
+									<a class="product-link" href="product_view.html">
 										<h4 class="product-title">Reciprocating Saw</h4>
 									</a>
 									<p class="product-size">Size <span></span></p>
@@ -728,7 +833,8 @@
 			</div>
 		</div>
     </footer>
-    <div class="location-popup popup-wrapper" id="location-popup">
+	
+	<div class="location-popup popup-wrapper" id="location-popup">
 		<div class="popup-overlay popup-dismiss"></div>
 		<div class="popup-container">
 			<button class="popup-close popup-dismiss">&times;</button>
@@ -736,16 +842,16 @@
 				<div class="popup-title">Choose Delivery Location</div>
 				<div class="location_icon">
 					<div class="list_icons">
-						<img src="https://image.shutterstock.com/image-vector/indian-city-icon-mumbaigateway-india-600w-1455972620.jpg" width="100%" height="100%" alt="">
+						<img src="assets/images/cities/1.png" width="100%" height="100%" alt="">
 					</div>
 					<div class="list_icons">
-						<img src="https://image.shutterstock.com/image-vector/indian-city-icon-chhattisgarhlakshman-temple-600w-1485989381.jpg" width="100%" height="100%" alt="">
+						<img src="assets/images/cities/2.png" width="100%" height="100%" alt="">
 					</div>
 					<div class="list_icons">
-						<img src="https://image.shutterstock.com/image-vector/indian-city-icon-kolkatavictoria-memorial-600w-1455972632.jpg" width="100%" height="100%" alt="">
+						<img src="assets/images/cities/3.png" width="100%" height="100%" alt="">
 					</div>
 					<div class="list_icons">
-						<img src="https://image.shutterstock.com/image-vector/indian-city-icon-trivandrumsri-padmanabhaswamy-600w-1524003011.jpg" width="100%" height="100%" alt="">
+						<img src="assets/images/cities/4.png" width="100%" height="100%" alt="">
 					</div>
 				</div>
 				<div class="location-search-form">
@@ -759,6 +865,8 @@
 			</div>
 		</div>
 	</div>
+
+
 	<div class="location-sidebar sidebar popup-wrapper" id="location-sidebar">
 		<div class="popup-overlay popup-dismiss"></div>
 		<div class="sidebar-container">
@@ -897,7 +1005,23 @@
 
 	
      <script src="./assets/vendor/swiperjs/swiper-bundle.min.js"></script>
-     <script src="./assets/js/main.js?v=1.15"></script>
+	 <script src="./assets/js/main.js?v=1.15"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+		// setTimeout(function(){
+		// 	$('.loader_bg').fadeToggle();
+		// },1500);
+	</script>
+	<script>
+		$(document).on('mouseover','.list_icons',function(){
+			$('.active_loc').removeClass('active_loc');
+			$(this).addClass('active_loc');
+		});
+		$(document).on('click','.list_icons',function(){
+			$('.active_loc').removeClass('active_loc');
+			$(this).addClass('active_loc');
+		});
+	</script>
 </body>
 
 </html>
